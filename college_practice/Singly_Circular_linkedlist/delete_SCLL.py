@@ -19,7 +19,7 @@ class Cirular_Linkedlist:
             temp.next=new_node #add new node as head
             new_node.next=self.head
             
-   
+   #delete a specific node in singly circular linked list
     def del_node(self,value):
             temp=self.head
             prev=None
