@@ -17,7 +17,7 @@ class Stack:
         if self.isempty():
             print("stack is empty")
         else:
-            temp=self.top
+            temp=self.top   
             print("popped element:",temp.value)
             self.top=self.top.next
             temp=None
