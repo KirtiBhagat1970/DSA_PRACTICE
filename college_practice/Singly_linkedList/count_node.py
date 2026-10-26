@@ -19,7 +19,7 @@ class Linkedlist:
         temp=self.head
         while temp:
             count+=1
-            sum+=temp.data
+            # sum+=temp.data
             temp=temp.next
         print(count)
             
