@@ -1,5 +1,5 @@
 class Node:
-    def __init__(self,value):
+    def __init__(self,value):  #create node
         self.left=None
         self.value=value
         self.right=None
@@ -66,7 +66,7 @@ b.insert(Node(300))
 b.insert(Node(500)) 
 b.insert(Node(50)) 
 b.inorder(b.root)
-print("\n Total nodes:",b.count)
+print("\n Total nodes:",b.count) #call varibale to display count of nodes
 b.preorder(b.root)
 b.postorder(b.root)
   
